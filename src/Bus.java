@@ -1,4 +1,4 @@
-public class Bus extends Vehicle{
+public class Bus extends Vehicle {
     private int seats;
     private int wheels;
 

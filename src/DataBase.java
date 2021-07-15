@@ -19,9 +19,9 @@ public class DataBase {
         }
         Car[] result = new Car[carCounter];
         int counter = 0;
-        for (int i=0; i<this.vehicles.length; i++){
-            if (this.vehicles[i] instanceof Car){
-                result[counter]= (Car)this.vehicles[i];
+        for (int i = 0; i < this.vehicles.length; i++) {
+            if (this.vehicles[i] instanceof Car) {
+                result[counter] = (Car) this.vehicles[i];
                 counter++;
             }
         }

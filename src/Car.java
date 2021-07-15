@@ -1,4 +1,4 @@
-public class Car extends Vehicle{
+public class Car extends Vehicle {
     private String color;
 
     public Car(String brand, String model, double price, String plate, String color) {

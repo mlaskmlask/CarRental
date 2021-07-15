@@ -13,11 +13,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String choose = scanner.nextLine();
 
-        switch (choose){
+        switch (choose) {
             case "1":
                 DataBase db = new DataBase();
-                Car [] cars = db.getCars();
-                for(Car currentCar:cars){
+                Car[] cars = db.getCars();
+                for (Car currentCar : cars) {
 
                 }
                 break;
