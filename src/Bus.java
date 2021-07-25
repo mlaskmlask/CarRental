@@ -27,4 +27,13 @@ public class Bus extends Vehicle {
         this.wheels = wheels;
     }
 
+
+    @Override
+    public String toString() {
+        return "Bus{" +
+                super.toString()+
+                "seats=" + seats +
+                ", wheels=" + wheels +
+                '}';
+    }
 }

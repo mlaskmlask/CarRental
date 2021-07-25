@@ -18,4 +18,11 @@ public class Car extends Vehicle {
         this.color = color;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                super.toString()+
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
